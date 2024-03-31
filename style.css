@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: rgb(92, 81, 81);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+h1{
+    text-align: center;
+}
+hr{
+    font-weight: bold;
+
+    height: 3px;
+    background: black;
+    margin-bottom: 10px;
+
+}
+.game{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 colunas*/
+
+}
+
+.game button{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: white;
+}
+.ajuste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10; /* Isso centralizará a imagem verticalmente na página */
+    margin-top: -650px; /* Ajuste o valor conforme necessário */
+
+    
+    
+    
+
+}
+.pequena {
+    width: 300px; /* Defina a largura desejada */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+    margin-top: 600px; /* Ajuste o valor conforme necessário */
+}
